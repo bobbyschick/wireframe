@@ -30,8 +30,16 @@ html, body {
 .navbar__link li {
     display: inline;
     margin-right: 30px;
-    color: #cccccc;
+    color: orangered;
     font-size: 25px;
+}
+
+.navbar__link a {
+    text-decoration: none;
+}
+
+.navbar__link a:visited {
+    color: #cccccc;
 }
 
 
@@ -99,8 +107,16 @@ html, body {
 .introduction__content {
     width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
+}
+
+.introduction__left {
+    margin-right: 20px;
+}
+
+.introduction__right {
+    margin-left: 20px;
 }
 
 .images {

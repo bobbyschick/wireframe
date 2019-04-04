@@ -115,15 +115,16 @@ html, body {
 .images {
     display: grid;
     grid-template-columns: 20% 2% 40% 2% 36%;
-    grid-template-rows: 10% 5% 40% 5% 40%;
-    height: 500px;
+    grid-template-rows: 10% 3% 25% 3% 28% 3% 30%;
+    height: 750px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .images__title {
     font-size: 28px;
     color: #464646;
-    align-self: center;
+    align-self: end;
     justify-self: center;
     grid-column: 1/6;
 }
@@ -147,9 +148,26 @@ html, body {
     grid-row: 5/6;
 }
 
-
 .images__four {
     background-color: #cccccc;
     grid-column: 5/6;
     grid-row: 2/6;
 }
+
+.images__bottom {
+    grid-row: 7/8;
+    grid-column: 1/6;
+    display: grid;
+    grid-template-columns: 55% 2% 43%;
+}
+
+.images__five {
+    background-color: #cccccc;
+    grid-column: 1/2;
+}
+
+.images__six {
+    background-color: #cccccc;
+    grid-column: 3/5;
+}
+

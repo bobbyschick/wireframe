@@ -58,10 +58,20 @@ html, body {
 }
 
 .header__title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     color: #1c1c1c;
     font-size: 45px;
     font-weight: lighter;
     letter-spacing: 35px;
+}
+
+.header__button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 75%;
 }
 
 .header__button-wrapper button {

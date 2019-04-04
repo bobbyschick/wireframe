@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35% 65%;
+    height: 105px;
+}
+
+.navbar__upper {
+    background-color: #cccccc;
+}
+
+.navbar__lower {
+    background-color: #464646;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.navbar__link {
+    list-style-type: none;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.navbar__link li {
+    display: inline;
+    font-size: 25px;
+}

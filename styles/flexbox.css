@@ -30,7 +30,6 @@ html, body {
 .navbar__link li {
     display: inline;
     margin-right: 30px;
-    color: orangered;
     font-size: 25px;
 }
 

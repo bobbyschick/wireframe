@@ -33,3 +33,41 @@ html, body {
     display: inline;
     font-size: 25px;
 }
+
+.navbar__link a {
+    text-decoration: none;
+}
+
+.navbar__link a:visited {
+    color: #cccccc;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(15, 2fr);
+    grid-template-rows: repeat(10, 3fr);
+    height: 550px;
+}
+
+.header__square {
+    background-color: #cccccc;
+    grid-column: 2/15;
+    grid-row: 2/25;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header__title {
+    color: #1c1c1c;
+    font-size: 45px;
+    font-weight: lighter;
+    letter-spacing: 35px;
+}
+
+.header__button-wrapper button {
+    height: 50px;
+    width: 200px;
+    background-color: #464646;
+    margin-left: 30px;
+    margin-right: 30px;
+}

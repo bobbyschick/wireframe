@@ -59,9 +59,8 @@ html, body {
 }
 
 .header__title {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-self: center;
+    align-self: flex-end;
     color: #1c1c1c;
     font-size: 45px;
     font-weight: lighter;
@@ -69,10 +68,9 @@ html, body {
 }
 
 .header__button-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 75%;
+    justify-self: center;
+    align-self: flex-end;
+    height: 50%;
 }
 
 .header__button-wrapper button {
@@ -169,5 +167,48 @@ html, body {
 .images__six {
     background-color: #cccccc;
     grid-column: 3/5;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 0.3fr 0.7fr 0.3fr 0.7fr 0.3fr 0.7fr 0.3fr 0.7fr 0.3fr 2.5fr;
+}
+
+.tabs__title {
+    grid-column: 2/3;
+    justify-self: center;
+}
+
+.tabs__tab {
+    background-color: #cccccc;
+    grid-column: 2/3;
+}
+
+.tabs__tab--one {
+    grid-row: 3/4;
+}
+
+.tabs__tab--two {
+    grid-row: 5/6;
+}
+
+.tabs__tab--three {
+    grid-row: 7/8;
+}
+
+.tabs__tab--four {
+    grid-row: 9/10;
+}
+
+.tabs__tab--five {
+    grid-row: 11/12;
+}
+
+.footer {
+    grid-template-columns: 100%;
+    background-color: #464646;
+    height: 100px;
+    margin-top: 50px;
 }
 
